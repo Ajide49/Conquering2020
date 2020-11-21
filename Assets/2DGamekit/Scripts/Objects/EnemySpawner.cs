@@ -64,12 +64,16 @@ namespace Gamekit2D
 
         protected IEnumerator SpawnTimer()
         {
-            while (m_CurrentSpawnedEnemyCount < concurrentEnemiesToBeSpawned && m_TotalSpawnedEnemyCount < totalEnemiesToBeSpawned)
+            Debug.Log("here");
+            while (m_TotalSpawnedEnemyCount < totalEnemiesToBeSpawned)
             {
-                yield return m_SpawnWait;
-                Pop(transform.position + transform.right * Random.Range(-spawnArea * 0.5f, spawnArea * 0.5f));
-                m_CurrentSpawnedEnemyCount++;
-                m_TotalSpawnedEnemyCount++;
+                for (int i = 0; i < concurrentEnemiesToBeSpawned; i++)
+                {
+                    yield return new WaitForSeconds(Random.Range(0, 3));
+                    Pop(transform.position + transform.right * Random.Range(-spawnArea * 0.5f, spawnArea * 0.5f));
+                    m_CurrentSpawnedEnemyCount++;
+                    m_TotalSpawnedEnemyCount++;
+                }
             }
 
             m_SpawnTimerCoroutine = null;

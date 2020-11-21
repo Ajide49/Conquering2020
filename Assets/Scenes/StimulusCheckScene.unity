@@ -182,7 +182,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 30.719997, y: 10.244999}
+  m_Size: {x: 61.439995, y: 20.489998}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -230,8 +230,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -249,8 +249,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
@@ -400,8 +400,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_IgnoreReversedGraphics: 1
   m_BlockingObjects: 0
   m_BlockingMask:
@@ -417,8 +417,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
@@ -513,7 +513,7 @@ PrefabInstance:
     - target: {fileID: 114833706040161466, guid: 5ae094758896c0b45b352d4b01916822,
         type: 3}
       propertyPath: prefab
-      value: 
+      value:
       objectReference: {fileID: 2083276936}
     - target: {fileID: 114833706040161466, guid: 5ae094758896c0b45b352d4b01916822,
         type: 3}
@@ -585,8 +585,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -596,7 +596,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Score: 0'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 0}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -681,8 +681,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7ade60bafdf21f648a76888bb1424566, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   scoreText: {fileID: 1827867743}
 --- !u!1 &2083276936
 GameObject:
@@ -801,8 +801,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 960138f0450083543ad1d17e1352019d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   startingHealth: 1
   invulnerableAfterDamage: 0
   invulnerabilityDuration: 3
@@ -811,27 +811,18 @@ MonoBehaviour:
   OnHealthSet:
     m_PersistentCalls:
       m_Calls: []
-    m_CallsDirty: 1
   OnTakeDamage:
     m_PersistentCalls:
       m_Calls: []
-    m_CallsDirty: 1
   OnDie:
     m_PersistentCalls:
       m_Calls: []
-    m_CallsDirty: 1
   OnGainHealth:
     m_PersistentCalls:
       m_Calls: []
-    m_CallsDirty: 1
   dataSettings:
     dataTag: c7c75090-6692-48bd-b599-cdfaf68b983d
     persistenceType: 3
-  m_Invulnerable: 0
-  m_InulnerabilityTimer: 0
-  m_CurrentHealth: 0
-  m_DamageDirection: {x: 0, y: 0}
-  m_ResetHealthOnSceneReload: 0
 --- !u!114 &2083276941
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -842,8 +833,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f346fa3d43b50442b6c7d563e8a44a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
 --- !u!61 &2083276942
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -880,8 +871,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c1506f7b67235554cb42519c257da979, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   damage: 1
   offset: {x: 1.5, y: 1}
   size: {x: 2.5, y: 1}
@@ -892,40 +883,11 @@ MonoBehaviour:
   forceRespawn: 0
   ignoreInvincibility: 0
   hittableLayers:
+    serializedVersion: 2
     m_Bits: 0
   OnDamageableHit:
     m_PersistentCalls:
       m_Calls: []
-    m_CallsDirty: 1
   OnNonDamageableHit:
     m_PersistentCalls:
       m_Calls: []
-    m_CallsDirty: 1
-  m_SpriteOriginallyFlipped: 0
-  m_CanDamage: 1
-  m_AttackContactFilter:
-    useTriggers: 0
-    useLayerMask: 0
-    useDepth: 0
-    useOutsideDepth: 0
-    useNormalAngle: 0
-    useOutsideNormalAngle: 0
-    layerMask:
-      m_Bits: 0
-    minDepth: 0
-    maxDepth: 0
-    minNormalAngle: 0
-    maxNormalAngle: 0
-  m_AttackOverlapResults:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  m_DamagerTransform: {fileID: 0}
-  m_LastHit: {fileID: 0}
