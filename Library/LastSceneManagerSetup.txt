@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/SocialDistance.unity
+- path: Assets/Scenes/HandWashing.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
