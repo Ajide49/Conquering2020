@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(AudioSource))]
 public class MoveHands : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -11,7 +12,8 @@ public class MoveHands : MonoBehaviour
     int direction = 0;
     float originalLeftY, originalRightY;
     public static int numberOfPresses = 0;
-    
+    public AudioSource audioData;
+
     void Start()
     {
         originalLeftY = leftHand.transform.position.y;
@@ -26,6 +28,7 @@ public class MoveHands : MonoBehaviour
         }
 
         if(Input.GetKeyDown(KeyCode.Space) && timer == 0) {
+            audioData.Play(0);
             timer = 32;
             numberOfPresses++;
             leftHand.transform.position = new Vector3(leftHand.transform.position.x, originalLeftY, leftHand.transform.position.z);
