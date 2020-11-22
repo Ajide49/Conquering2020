@@ -4,9 +4,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
 
-public class Score : MonoBehaviour
+public class StimulusCheckScore : MonoBehaviour
 {
-    static uint score = 0;
+    public static uint score = 0;
     static bool win = false;
     static TextMeshProUGUI scoreTextStatic;
     public TextMeshProUGUI scoreText;

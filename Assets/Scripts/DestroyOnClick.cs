@@ -8,7 +8,7 @@ public class DestroyOnClick : MonoBehaviour
     void OnMouseDown()
     {
         DamageSelf();
-        Score.Increment();
+        StimulusCheckScore.Increment();
     }
 
     private void OnBecameInvisible()
