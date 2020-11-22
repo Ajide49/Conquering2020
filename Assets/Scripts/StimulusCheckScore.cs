@@ -7,7 +7,7 @@ using TMPro;
 public class StimulusCheckScore : MonoBehaviour
 {
     public static uint score = 0;
-    static bool win = false;
+    public static bool win = false;
     static TextMeshProUGUI scoreTextStatic;
     public TextMeshProUGUI scoreText;
 
@@ -20,9 +20,7 @@ public class StimulusCheckScore : MonoBehaviour
         {
             win = true;
             Debug.Log("win");
-            // end minigame
-            // TODO: TransitionScene
-            SceneManager.LoadScene("TransitionScene");
+            // TODO: end minigame
         }
         Debug.Log(score.ToString());
     }
